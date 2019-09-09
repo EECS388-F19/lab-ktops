@@ -16,3 +16,10 @@ print('Sum = ' + str(sum(oop)))
 
 # The average of the two numbers, starting with "Average = "
 print('Average = ' + str((sum(oop)/len(oop))))
+
+# from in lab
+students = ['Jim', 'Hadley', 'Matt']
+students.sort()
+first_name = students[0]
+first_name = first_name[:-1]
+print(first_name)
