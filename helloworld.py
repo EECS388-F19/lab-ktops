@@ -1,10 +1,10 @@
 # Using python, make your script print:
+import random
 
 # Your name
 print('Kelsey Toporski')
 
 # Two random numbers between 0-100
-import random
 oop = []
 for i in range(2):
     a = random.randint(0, 101)
